@@ -19,6 +19,7 @@ export default function btus() {
         const area = largura * comprimento;
         const fatorSol = solManha ? 600 : 800;
         const btus = area * fatorSol;
+        
 
         resultadoBtus.innerHTML = `Área: ${area.toFixed(2)} m² <br>Necessário: <strong>${btus.toLocaleString()} BTUs</strong>`;
         resultadoBtus.classList.remove("alertaVermelho");
