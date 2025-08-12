@@ -24,5 +24,5 @@ export default function btus() {
         resultadoBtus.innerHTML = `Área: ${area.toFixed(2)} m² <br>Necessário: <strong>${btus.toLocaleString()} BTUs</strong>`;
         resultadoBtus.classList.remove("alertaVermelho");
         resultadoBtus.classList.add("alertaVerde");
-    });
+    })
 }
